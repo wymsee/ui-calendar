@@ -7,6 +7,9 @@
 *       The calendar will watch any eventSource array and update itself when a change is made.
 *
 */
+const moment = require('moment');
+require('fullcalendar/dist/fullcalendar.css');
+fullCalendar = require('fullcalender');
 
 angular.module('ui.calendar', [])
 

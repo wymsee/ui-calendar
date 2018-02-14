@@ -1,5 +1,5 @@
 {
-  "name": "angular-ui-calendar",
+  "name": "@synconset/angular-ui-calendar",
   "version": "1.0.2",
   "description": "A complete AngularJS directive for the Arshaw FullCalendar.",
   "author": "https://github.com/angular-ui/ui-calendar/graphs/contributors",
@@ -7,7 +7,8 @@
   "homepage": "http://angular-ui.github.com",
   "main": "src/calendar.js",
   "dependencies": {
-    "fullcalendar": "~2.9.1"
+    "fullcalendar": "^2.9.1",
+    "moment": "^2.5.0"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -31,5 +32,8 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/angular-ui/ui-calendar.git"
+  },
+  "publishConfig": {
+      "access": "public"
   }
 }
