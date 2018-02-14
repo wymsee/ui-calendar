@@ -9,7 +9,7 @@
 */
 const moment = require('moment');
 require('fullcalendar/dist/fullcalendar.css');
-fullCalendar = require('fullcalender');
+require('fullcalendar');
 
 angular.module('ui.calendar', [])
 
